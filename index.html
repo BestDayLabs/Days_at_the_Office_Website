@@ -179,38 +179,36 @@
             margin-top: 60px;
             display: flex;
             justify-content: center;
+            position: relative;
         }
 
-        .app-preview {
-            /* background: var(--text); */
-            background: white;
-            border: 10px solid var(--primary);
-            color: var(--primary);
-            padding: 40px;
-            border-radius: 24px;
-            text-align: center;
-            min-width: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            gap: 0px;
-            aspect-ratio: 9 / 17.5;
-            box-shadow: 0 40px 80px rgba(26, 54, 93, 0.3);
+        .hero-image img {
+            width: 320px;
+            height: auto;
+            border-radius: 40px;
+            box-shadow:
+                0 40px 80px rgba(26, 54, 93, 0.25),
+                0 20px 40px rgba(26, 54, 93, 0.15),
+                0 0 0 1px rgba(26, 54, 93, 0.05);
+            transition: transform 0.4s ease;
         }
 
-        .app-preview svg {
-            width: 60px;
+        .hero-image img:hover {
+            transform: translateY(-8px);
         }
 
-        .app-preview .number {
-            font-size: 4rem;
-            font-weight: 700;
-        }
-
-        .app-preview .label {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
+        .hero-image::before {
+            content: '';
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: -1;
+            pointer-events: none;
         }
 
         /* Sections */
@@ -616,6 +614,16 @@
                 font-size: 1.1rem;
             }
 
+            .hero-image img {
+                width: 260px;
+                border-radius: 32px;
+            }
+
+            .hero-image::before {
+                width: 350px;
+                height: 350px;
+            }
+
             .section-header h2 {
                 font-size: 2rem;
             }
@@ -696,17 +704,7 @@
                 </a>
             </div>
             <div class="hero-image">
-                <div class="app-preview">
-                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 5C30.67 5 15 20.67 15 40c0 25 35 55 35 55s35-30 35-55c0-19.33-15.67-35-35-35z"
-                            fill="#1a365d"></path>
-                        <circle cx="50" cy="40" r="22" fill="white"></circle>
-                        <path d="M50 24v18l12 7" stroke="#1a365d" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round"></path>
-                    </svg>
-                    <div class="number">12</div>
-                    <div class="label">days this month</div>
-                </div>
+                <img src="app-screenshot.png" alt="Days at the Office app showing office locations with attendance tracking — Main Office 9 of 12 days, Downtown Hub 2 of 8 days, Client Site 1 of 4 days" width="320" height="693" loading="eager">
             </div>
         </div>
     </section>
