@@ -12,19 +12,17 @@
         gtag('js', new Date());
         gtag('config', 'G-9K8FEHDHYL');
     </script>
-    <title>Free Hybrid Work Tools | Days at the Office</title>
+    <title>Hybrid Work Blog — Tips for Office Day Tracking & RTO | Days at the Office</title>
     <meta name="description"
-        content="Free calculators and tools for hybrid workers. Calculate commute costs, RTO impact, office attendance, and find the best days to go into the office.">
-    <meta name="keywords" content="hybrid work tools, commute calculator, RTO calculator, office attendance, work from home, hybrid schedule">
-    <link rel="canonical" href="https://daysattheoffice.com/tools/">
+        content="Practical guides for hybrid workers navigating return-to-office policies. Learn how to track office days, prove attendance, calculate commute costs, and optimize your schedule.">
+    <link rel="canonical" href="https://daysattheoffice.com/blog/">
     <link rel="icon" type="image/x-icon" href="../favicon.png">
     <!-- Open Graph -->
-    <meta property="og:title" content="Free Hybrid Work Tools | Days at the Office">
-    <meta property="og:description" content="Free calculators and tools for hybrid workers. Calculate commute costs, RTO impact, office attendance, and find the best days to go into the office.">
+    <meta property="og:title" content="Hybrid Work Blog — Tips for Office Day Tracking & RTO | Days at the Office">
+    <meta property="og:description" content="Practical guides for hybrid workers navigating return-to-office policies. Track office days, prove attendance, and optimize your schedule.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://daysattheoffice.com/tools/">
+    <meta property="og:url" content="https://daysattheoffice.com/blog/">
     <style>
-        /* Reset and Base Styles */
         * {
             margin: 0;
             padding: 0;
@@ -39,7 +37,6 @@
             --background: #ffffff;
             --background-secondary: #f5f5f7;
             --border: #d2d2d7;
-            --success: #34C759;
         }
 
         body {
@@ -150,18 +147,18 @@
             margin: 0 auto;
         }
 
-        /* Tools Grid */
-        .tools-section {
+        /* Blog Grid */
+        .blog-section {
             padding: 60px 0 80px;
         }
 
-        .tools-grid {
+        .blog-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: 1fr;
             gap: 24px;
         }
 
-        .tool-card {
+        .blog-card {
             background: var(--background);
             border: 1px solid var(--border);
             border-radius: 16px;
@@ -173,45 +170,42 @@
             flex-direction: column;
         }
 
-        .tool-card:hover {
+        .blog-card:hover {
             border-color: var(--primary);
             box-shadow: 0 8px 30px rgba(26, 54, 93, 0.12);
             transform: translateY(-2px);
         }
 
-        .tool-icon {
-            width: 56px;
-            height: 56px;
-            background: var(--primary);
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
+        .blog-card .card-meta {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
         }
 
-        .tool-icon svg {
-            width: 28px;
-            height: 28px;
-            color: white;
-            stroke: white;
-            fill: none;
+        .blog-card .card-meta .tag {
+            background: var(--background-secondary);
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-right: 8px;
         }
 
-        .tool-card h2 {
-            font-size: 1.25rem;
+        .blog-card h2 {
+            font-size: 1.35rem;
             font-weight: 700;
             margin-bottom: 12px;
+            line-height: 1.3;
         }
 
-        .tool-card p {
+        .blog-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             flex-grow: 1;
             margin-bottom: 20px;
+            line-height: 1.6;
         }
 
-        .tool-card .card-footer {
+        .blog-card .card-footer {
             display: flex;
             align-items: center;
             gap: 8px;
@@ -220,30 +214,14 @@
             font-size: 0.95rem;
         }
 
-        .tool-card .card-footer svg {
+        .blog-card .card-footer svg {
             width: 18px;
             height: 18px;
             transition: transform 0.2s;
         }
 
-        .tool-card:hover .card-footer svg {
+        .blog-card:hover .card-footer svg {
             transform: translateX(4px);
-        }
-
-        /* Features List */
-        .tool-features {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 16px;
-        }
-
-        .tool-features span {
-            background: var(--background-secondary);
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
         }
 
         /* CTA Section */
@@ -296,25 +274,60 @@
         footer {
             background: var(--text);
             color: white;
-            padding: 40px 0;
+            padding: 60px 0 30px;
         }
 
-        .footer-content {
-            text-align: center;
+        .footer-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
         }
 
-        .footer-content p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
+        .footer-brand p {
+            color: #86868b;
+            margin-top: 16px;
         }
 
-        .footer-content a {
+        .footer-logo {
             color: white;
-            text-decoration: none;
         }
 
-        .footer-content a:hover {
-            text-decoration: underline;
+        .footer-links h4 {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: white;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: #86868b;
+            text-decoration: none;
+            display: block;
+            padding: 8px 0;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 24px 0;
+            border-top: 1px solid #333;
+            text-align: center;
+            color: #86868b;
+            font-size: 0.9rem;
         }
 
         /* Responsive */
@@ -352,12 +365,16 @@
                 font-size: 1.1rem;
             }
 
-            .tools-grid {
-                grid-template-columns: 1fr;
-            }
-
             .cta-content h2 {
                 font-size: 1.75rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .footer-brand {
+                grid-column: 1 / -1;
             }
         }
 
@@ -366,8 +383,12 @@
                 display: none;
             }
 
-            .tool-card {
+            .blog-card {
                 padding: 24px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -390,8 +411,8 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="../#features">Features</a></li>
                 <li><a href="../#pricing">Pricing</a></li>
-                <li><a href="./" class="active">Tools</a></li>
-                <li><a href="../blog/">Blog</a></li>
+                <li><a href="../tools/">Tools</a></li>
+                <li><a href="./" class="active">Blog</a></li>
                 <li><a href="../#support">Support</a></li>
             </ul>
             <button class="mobile-menu-btn" onclick="toggleMenu()">&#9776;</button>
@@ -401,157 +422,91 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Free Hybrid Work Tools</h1>
-            <p>Calculators and planners to help you navigate hybrid work, understand your commute costs, and optimize your office schedule.</p>
+            <h1>Hybrid Work Blog</h1>
+            <p>Practical guides for hybrid workers navigating return-to-office policies, tracking office days, and optimizing your schedule.</p>
         </div>
     </section>
 
-    <!-- Tools Grid -->
-    <section class="tools-section">
+    <!-- Blog Grid -->
+    <section class="blog-section">
         <div class="container">
-            <div class="tools-grid">
-                <!-- Commute Cost Calculator -->
-                <a href="./commute-cost-calculator/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 6v6l4 2"></path>
-                        </svg>
+            <div class="blog-grid">
+
+                <a href="./how-to-track-office-days/" class="blog-card">
+                    <div class="card-meta">
+                        <span class="tag">Guide</span>
+                        February 21, 2026 &middot; 8 min read
                     </div>
-                    <h2>Commute Cost Calculator</h2>
-                    <div class="tool-features">
-                        <span>Gas & Transit</span>
-                        <span>Parking</span>
-                        <span>Lunch Costs</span>
-                        <span>Time Value</span>
-                    </div>
-                    <p>Calculate the true cost of your commute including transportation, parking, lunch expenses, and the value of your time. Compare costs across different office schedules.</p>
+                    <h2>How to Track Your Office Days in 2026: The Complete Guide for Hybrid Workers</h2>
+                    <p>With 69% of companies now measuring office attendance compliance, keeping your own records has never been more important. Compare every method from spreadsheets to automatic GPS tracking.</p>
                     <div class="card-footer">
-                        Calculate your costs
+                        Read article
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </div>
                 </a>
 
-                <!-- RTO Cost Calculator -->
-                <a href="./return-to-office-cost-calculator/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M3 3v18h18"></path>
-                            <path d="M18 17V9"></path>
-                            <path d="M13 17V5"></path>
-                            <path d="M8 17v-3"></path>
-                        </svg>
+                <a href="./rto-compliance-prove-office-attendance/" class="blog-card">
+                    <div class="card-meta">
+                        <span class="tag">Compliance</span>
+                        February 21, 2026 &middot; 7 min read
                     </div>
-                    <h2>Return-to-Office Cost Calculator</h2>
-                    <div class="tool-features">
-                        <span>Before vs After</span>
-                        <span>Added Costs</span>
-                        <span>Time Impact</span>
-                    </div>
-                    <p>See the financial impact of RTO mandates. Compare your previous hybrid schedule to new office requirements and calculate the additional yearly cost.</p>
+                    <h2>RTO Compliance: How to Prove You Were in the Office</h2>
+                    <p>With 37% of companies now taking enforcement actions for RTO non-compliance, employees need their own attendance proof. Learn 5 reliable methods to prove you were in the office.</p>
                     <div class="card-footer">
-                        Calculate RTO impact
+                        Read article
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </div>
                 </a>
 
-                <!-- Office Attendance Calculator -->
-                <a href="./office-attendance-percentage-calculator/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
+                <a href="./hidden-costs-going-back-to-office/" class="blog-card">
+                    <div class="card-meta">
+                        <span class="tag">Money</span>
+                        February 21, 2026 &middot; 7 min read
                     </div>
-                    <h2>Office Attendance Percentage Calculator</h2>
-                    <div class="tool-features">
-                        <span>Quick Calculate</span>
-                        <span>Compliance Check</span>
-                    </div>
-                    <p>Quickly calculate your office attendance percentage and check if you're meeting your company's hybrid work requirements.</p>
+                    <h2>The Hidden Costs of Going Back to the Office (And How to Calculate Them)</h2>
+                    <p>The average hybrid worker spends $12,000+ per year on RTO costs most never calculate. Break down commute, meals, childcare, and wardrobe expenses with our free tools.</p>
                     <div class="card-footer">
-                        Check your attendance
+                        Read article
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </div>
                 </a>
 
-                <!-- Hybrid Schedule Generator -->
-                <a href="./hybrid-work-schedule-generator/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                            <line x1="16" y1="2" x2="16" y2="6"></line>
-                            <line x1="8" y1="2" x2="8" y2="6"></line>
-                            <line x1="3" y1="10" x2="21" y2="10"></line>
-                        </svg>
+                <a href="./best-days-to-go-into-the-office/" class="blog-card">
+                    <div class="card-meta">
+                        <span class="tag">Strategy</span>
+                        February 21, 2026 &middot; 7 min read
                     </div>
-                    <h2>Hybrid Work Schedule Generator</h2>
-                    <div class="tool-features">
-                        <span>Personalized</span>
-                        <span>Team Overlap</span>
-                        <span>Alternatives</span>
-                    </div>
-                    <p>Generate an optimal weekly schedule based on your required office days, preferred days, commute difficulty, and team collaboration needs.</p>
+                    <h2>Best Days to Go Into the Office in 2026 (Data-Backed Guide)</h2>
+                    <p>Tuesday, Wednesday, and Thursday dominate hybrid office attendance. But the busiest days aren't always the best days for your productivity. Here's how to choose.</p>
                     <div class="card-footer">
-                        Generate your schedule
+                        Read article
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </div>
                 </a>
 
-                <!-- Best Days Calculator -->
-                <a href="./best-days-to-go-into-the-office/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
+                <a href="./automatic-vs-manual-office-tracking/" class="blog-card">
+                    <div class="card-meta">
+                        <span class="tag">Comparison</span>
+                        February 21, 2026 &middot; 7 min read
                     </div>
-                    <h2>Best Days to Go Into the Office</h2>
-                    <div class="tool-features">
-                        <span>Traffic Patterns</span>
-                        <span>Ranked Days</span>
-                        <span>Time Saved</span>
-                    </div>
-                    <p>Find the optimal days to commute based on traffic patterns, your schedule preferences, and commute length. Minimize stress and save time.</p>
+                    <h2>Days at the Office vs. Manual Tracking: Why Automatic Beats Spreadsheets</h2>
+                    <p>Compare 5 ways to track your office days — spreadsheets, calendar blocking, note apps, employer tools, and automatic GPS tracking. See why automatic wins on effort, accuracy, and privacy.</p>
                     <div class="card-footer">
-                        Find your best days
+                        Read article
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </div>
                 </a>
 
-                <a href="./rto-tracker/" class="tool-card">
-                    <div class="tool-icon">
-                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
-                    </div>
-                    <h2>2026 Return-to-Office Tracker</h2>
-                    <div class="tool-features">
-                        <span>40+ Companies</span>
-                        <span>Searchable</span>
-                        <span>Updated Weekly</span>
-                    </div>
-                    <p>Which companies are requiring return-to-office in 2026? Searchable database of RTO policies from Amazon, Google, Microsoft, JPMorgan and more.</p>
-                    <div class="card-footer">
-                        Browse RTO policies
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </div>
-                </a>
             </div>
         </div>
     </section>
@@ -574,11 +529,54 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <p><a href="../">Days at the Office</a> - Track your office days effortlessly</p>
-                <p style="margin-top: 8px;">&copy; 2025-2026 Best Day Labs LLC. All rights reserved.</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="../" class="logo footer-logo">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M50 5C30.67 5 15 20.67 15 40c0 25 35 55 35 55s35-30 35-55c0-19.33-15.67-35-35-35z"
+                            fill="currentColor" />
+                        <circle cx="50" cy="40" r="22" fill="#1A365D" />
+                        <path d="M50 24v18l12 7" stroke="white" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    Days at the Office
+                </a>
+                <p>A personal attendance tracker for hybrid workers. Know your office days without the hassle.</p>
             </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="../#features">Features</a></li>
+                    <li><a href="../#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="../tools/">Free Tools</a></li>
+                    <li><a href="./">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="../#support">Help Center</a></li>
+                    <li><a href="mailto:bestdaylabs@gmail.com">Contact Us</a></li>
+                    <li><a href="../#faq">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="../#privacy">Privacy Policy</a></li>
+                    <li><a href="../#terms">Terms of Service</a></li>
+                    <li><a href="../#accessibility">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025-2026 Days at the Office. All rights reserved.</p>
+            <p style="margin-top: 8px;">Made with care for hybrid workers everywhere.</p>
         </div>
     </footer>
 
