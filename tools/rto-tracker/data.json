@@ -36,6 +36,15 @@
         "sourceLabel": "Fortune"
     },
     {
+        "company": "Brookfield Corporation",
+        "industry": "Real Estate",
+        "days": 5,
+        "date": "2021-06",
+        "details": "Has enforced a full five-day in-office workweek since June 2021. CEO declared in September 2025 that the RTO debate is 'finally over,' citing rising office demand across its portfolio.",
+        "source": "https://www.bloomberg.com/news/articles/2025-09-10/the-rto-debate-is-finally-over-says-office-giant-brookfield",
+        "sourceLabel": "Bloomberg"
+    },
+    {
         "company": "CIBC",
         "industry": "Finance",
         "days": 5,
@@ -114,6 +123,24 @@
         "date": "2025-03",
         "details": "CEO Jamie Dimon ordered all employees back 5 days a week, ending hybrid arrangements. Internal memo warned that non-compliance would have consequences.",
         "source": "https://www.bloomberg.com/news/articles/2025-01-10/jpmorgan-orders-employees-to-return-to-office-five-days-a-week",
+        "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "Kroger",
+        "industry": "Retail",
+        "days": 5,
+        "date": "2026-01",
+        "details": "Required all ~4,800 corporate office employees to return 5 days per week starting January 2026. Reversed previous hybrid policy of 3-4 days. Part of broader cost-cutting after failed $24.6B Albertsons merger.",
+        "source": "https://allwork.space/2025/11/kroger-ends-remote-work-orders-thousands-back-to-offices-in-2026/",
+        "sourceLabel": "Allwork.Space"
+    },
+    {
+        "company": "Major League Baseball (MLB)",
+        "industry": "Media",
+        "days": 5,
+        "date": "2025-02",
+        "details": "Required all league office employees to return to the office 5 days per week starting February 2025, ending its post-pandemic hybrid policy. Employees receive two flex days per month for remote work.",
+        "source": "https://www.bloomberg.com/news/articles/2025-01-21/mlb-orders-employees-to-return-to-office-five-days-a-week",
         "sourceLabel": "Bloomberg"
     },
     {
@@ -288,6 +315,15 @@
         "sourceLabel": "Axios"
     },
     {
+        "company": "Bloomberg LP",
+        "industry": "Media",
+        "days": 4,
+        "date": "2025-09",
+        "details": "Escalated from 3-day to 4-day in-office requirement in fall 2025. Employees must log their location daily via internal system. Founder Mike Bloomberg has been vocal about full office return.",
+        "source": "https://talkingbiznews.com/they-talk-biz-news/bloomberg-among-most-aggressive-in-return-to-office-strategies/",
+        "sourceLabel": "Talking Biz News"
+    },
+    {
         "company": "Apple",
         "industry": "Tech",
         "days": 4,
@@ -322,6 +358,24 @@
         "details": "CEO Larry Fink required employees in the office at least 4 days per week, emphasizing in-person collaboration for culture building.",
         "source": "https://www.bloomberg.com/news/articles/2023-07-11/blackrock-tells-staff-to-come-into-office-at-least-four-days-a-week",
         "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "Canadian Federal Government",
+        "industry": "Government",
+        "days": 4,
+        "date": "2026-07",
+        "details": "Mandated core public service employees return to office minimum 4 days per week by July 6, 2026. Executives required 5 days by May 4, 2026. Increased from previous 3-day minimum. Strongly opposed by public sector unions.",
+        "source": "https://globalnews.ca/news/11654777/ottawa-public-service-4-days-office-order/",
+        "sourceLabel": "Global News"
+    },
+    {
+        "company": "California State Government",
+        "industry": "Government",
+        "days": 4,
+        "date": "2026-07",
+        "details": "Governor Newsom ordered state agencies to require at least 4 in-office days per week starting July 1, 2026. Originally set for July 2025 but delayed after union negotiations. Applies to all state employees, with case-by-case telework exceptions.",
+        "source": "https://www.gov.ca.gov/2025/03/03/governor-newsom-orders-return-to-office/",
+        "sourceLabel": "Office of Governor"
     },
     {
         "company": "Comcast",
@@ -385,6 +439,15 @@
         "details": "Increased in-office requirement to 4 days per week at Beaverton, OR headquarters under new CEO Elliott Hill's back-to-basics strategy.",
         "source": "https://www.businessinsider.com/nike-return-to-office-four-days-ceo-elliott-hill-2024",
         "sourceLabel": "Business Insider"
+    },
+    {
+        "company": "Publicis Groupe",
+        "industry": "Advertising",
+        "days": 4,
+        "date": "2026-04",
+        "details": "Increased in-office requirement from 3 to 4 days per week for UK holding company employees starting April 13, 2026. Monday remains the anchor day. Other Publicis agencies may apply stricter policies.",
+        "source": "https://www.prweek.com/article/1949683/publicis-mandates-four-days-per-week-office-uk",
+        "sourceLabel": "PR Week"
     },
     {
         "company": "Royal Bank of Canada (RBC)",
@@ -965,11 +1028,11 @@
     {
         "company": "Salesforce",
         "industry": "Tech",
-        "days": "flex",
-        "date": "2023-01",
-        "details": "Offers office-flex (1-3 days), office-based (4-5 days), or fully remote depending on role. CEO Benioff has emphasized voluntary in-office culture.",
-        "source": "https://www.cnbc.com/2023/06/08/salesforce-says-new-hires-do-better-in-the-office.html",
-        "sourceLabel": "CNBC"
+        "days": 3,
+        "date": "2024-10",
+        "details": "Tightened RTO policy starting October 1, 2024. Sales, workplace services, and data center teams required 4-5 days in-office. Legal, product, and marketing teams required 3 days. Some engineering roles need 10 days per quarter. CEO Benioff reversed his 2022 stance that office mandates 'never work.'",
+        "source": "https://www.salesforceben.com/salesforce-u-turn-on-hybrid-working-return-to-office-mandate-issued-for-select-employees/",
+        "sourceLabel": "Salesforce Ben"
     },
     {
         "company": "ServiceNow",
