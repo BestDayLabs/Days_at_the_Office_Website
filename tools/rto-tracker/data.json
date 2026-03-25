@@ -1,14 +1,5 @@
 [
     {
-        "company": "AT&T",
-        "industry": "Telecom",
-        "days": 5,
-        "date": "2025-01",
-        "details": "Required all office-based employees to work from the office 5 days per week starting January 2025, consolidating offices to Dallas HQ and other hubs.",
-        "source": "https://www.bloomberg.com/news/articles/2024-06-12/at-t-tells-managers-to-return-to-office-five-days-a-week",
-        "sourceLabel": "Bloomberg"
-    },
-    {
         "company": "Amazon",
         "industry": "Tech",
         "days": 5,
@@ -18,6 +9,15 @@
         "sourceLabel": "About Amazon"
     },
     {
+        "company": "AT&T",
+        "industry": "Telecom",
+        "days": 5,
+        "date": "2025-01",
+        "details": "Required all office-based employees to work from the office 5 days per week starting January 2025, consolidating offices to Dallas HQ and other hubs.",
+        "source": "https://www.bloomberg.com/news/articles/2024-06-12/at-t-tells-managers-to-return-to-office-five-days-a-week",
+        "sourceLabel": "Bloomberg"
+    },
+    {
         "company": "Bank of America",
         "industry": "Finance",
         "days": 5,
@@ -25,6 +25,15 @@
         "details": "Required all employees to return full-time to the office. Sent 'letters of education' to employees not meeting attendance thresholds.",
         "source": "https://www.bloomberg.com/news/articles/2024-10-17/bofa-threatens-staff-with-disciplinary-action-over-office-attendance",
         "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "Boeing",
+        "industry": "Aerospace",
+        "days": 5,
+        "date": "2025-01",
+        "details": "Boeing Commercial Airplanes required all employees to return to office 5 days per week, reverting to pre-pandemic policy. Other divisions (Space, Defense) may have different arrangements. Engineering and manufacturing roles were already fully on-site.",
+        "source": "https://www.kuow.org/stories/boeing-asks-commercial-airplanes-workers-to-return-to-office-5-days-week",
+        "sourceLabel": "KUOW"
     },
     {
         "company": "Broadcom",
@@ -79,6 +88,15 @@
         "details": "Exxon Mobil required Houston-campus employees to return to office 5 days per week starting May 2021, one of the earliest major corporations to mandate full-time in-office work post-pandemic.",
         "source": "https://buildremote.co/companies/companies-requiring-5-days-in-office/",
         "sourceLabel": "Buildremote"
+    },
+    {
+        "company": "Fannie Mae",
+        "industry": "Finance",
+        "days": 5,
+        "date": "2025-05",
+        "details": "FHFA Director Bill Pulte directed Fannie Mae employees to return to office 5 days per week, mirroring the Freddie Mac mandate. Pulte noted only 49 of 2,900 employees were showing up full-time. Also relocating San Francisco office to Birmingham, Alabama.",
+        "source": "https://dailycaller.com/2025/03/24/fannie-mae-in-person-work-doge/",
+        "sourceLabel": "Daily Caller"
     },
     {
         "company": "Freddie Mac",
@@ -162,15 +180,6 @@
         "sourceLabel": "Newsweek"
     },
     {
-        "company": "PNC Financial",
-        "industry": "Finance",
-        "days": 5,
-        "date": "2026-05",
-        "details": "CEO Bill Demchak mandated all employees return 5 days per week starting May 4, 2026, ending remaining pandemic-era hybrid flexibility for ~55,000 employees.",
-        "source": "https://www.bankingdive.com/news/pnc-mandates-5-day-rto-starting-may-4/809758/",
-        "sourceLabel": "Banking Dive"
-    },
-    {
         "company": "Palantir",
         "industry": "Tech",
         "days": 5,
@@ -187,6 +196,24 @@
         "details": "After Skydance acquired Paramount, mandated 5 days at LA and NY offices from January 5, 2026. Around 600 employees took a buyout rather than return, costing roughly $185 million.",
         "source": "https://www.newsweek.com/list-of-companies-calling-workers-back-to-office-in-2026-11242468",
         "sourceLabel": "Newsweek"
+    },
+    {
+        "company": "PNC Financial",
+        "industry": "Finance",
+        "days": 5,
+        "date": "2026-05",
+        "details": "CEO Bill Demchak mandated all employees return 5 days per week starting May 4, 2026, ending remaining pandemic-era hybrid flexibility for ~55,000 employees.",
+        "source": "https://www.bankingdive.com/news/pnc-mandates-5-day-rto-starting-may-4/809758/",
+        "sourceLabel": "Banking Dive"
+    },
+    {
+        "company": "Raytheon (RTX)",
+        "industry": "Aerospace",
+        "days": 5,
+        "date": "2024-10",
+        "details": "Mandated employees return to office 5 days per week starting October 2024. Many defense and classified roles were already fully on-site.",
+        "source": "https://buildremote.co/return-to-office/raytheon/",
+        "sourceLabel": "Buildremote"
     },
     {
         "company": "Rogers Communications",
@@ -261,6 +288,15 @@
         "sourceLabel": "The Verge"
     },
     {
+        "company": "Ubisoft",
+        "industry": "Tech",
+        "days": 5,
+        "date": "2026-01",
+        "details": "Escalated from 3-day hybrid to full 5-day in-office requirement for all teams in January 2026. Employees given annual allowance of WFH days instead. Over 1,200 employees went on strike in protest.",
+        "source": "https://www.pcgamer.com/gaming-industry/dont-call-it-a-layoff-ubisoft-issues-a-full-return-to-office-order-for-all-employees-as-it-confirms-more-studio-closures-are-coming/",
+        "sourceLabel": "PC Gamer"
+    },
+    {
         "company": "UPS",
         "industry": "Retail",
         "days": 5,
@@ -277,15 +313,6 @@
         "details": "Executive order from President Trump required full return to office for most federal employees, ending pandemic-era telework policies.",
         "source": "https://www.reuters.com/world/us/trump-signs-executive-order-requiring-federal-employees-return-office-2025-01-20/",
         "sourceLabel": "Reuters"
-    },
-    {
-        "company": "Ubisoft",
-        "industry": "Tech",
-        "days": 5,
-        "date": "2026-01",
-        "details": "Escalated from 3-day hybrid to full 5-day in-office requirement for all teams in January 2026. Employees given annual allowance of WFH days instead. Over 1,200 employees went on strike in protest.",
-        "source": "https://www.pcgamer.com/gaming-industry/dont-call-it-a-layoff-ubisoft-issues-a-full-return-to-office-order-for-all-employees-as-it-confirms-more-studio-closures-are-coming/",
-        "sourceLabel": "PC Gamer"
     },
     {
         "company": "Walmart",
@@ -315,15 +342,6 @@
         "sourceLabel": "Axios"
     },
     {
-        "company": "Bloomberg LP",
-        "industry": "Media",
-        "days": 4,
-        "date": "2025-09",
-        "details": "Escalated from 3-day to 4-day in-office requirement in fall 2025. Employees must log their location daily via internal system. Founder Mike Bloomberg has been vocal about full office return.",
-        "source": "https://talkingbiznews.com/they-talk-biz-news/bloomberg-among-most-aggressive-in-return-to-office-strategies/",
-        "sourceLabel": "Talking Biz News"
-    },
-    {
         "company": "Apple",
         "industry": "Tech",
         "days": 4,
@@ -331,6 +349,24 @@
         "details": "Officially requires 3 specific days (Tue/Thu + 1 team day), but many teams pushed to 4 days. Badge tracking used to enforce compliance.",
         "source": "https://www.bloomberg.com/news/articles/2022-08-15/apple-sets-return-to-office-deadline-of-sept-5-for-corporate-employees",
         "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "BlackRock",
+        "industry": "Finance",
+        "days": 4,
+        "date": "2023-07",
+        "details": "CEO Larry Fink required employees in the office at least 4 days per week, emphasizing in-person collaboration for culture building.",
+        "source": "https://www.bloomberg.com/news/articles/2023-07-11/blackrock-tells-staff-to-come-into-office-at-least-four-days-a-week",
+        "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "Bloomberg LP",
+        "industry": "Media",
+        "days": 4,
+        "date": "2025-09",
+        "details": "Escalated from 3-day to 4-day in-office requirement in fall 2025. Employees must log their location daily via internal system. Founder Mike Bloomberg has been vocal about full office return.",
+        "source": "https://talkingbiznews.com/they-talk-biz-news/bloomberg-among-most-aggressive-in-return-to-office-strategies/",
+        "sourceLabel": "Talking Biz News"
     },
     {
         "company": "BMO (Bank of Montreal)",
@@ -351,13 +387,13 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "BlackRock",
-        "industry": "Finance",
+        "company": "California State Government",
+        "industry": "Government",
         "days": 4,
-        "date": "2023-07",
-        "details": "CEO Larry Fink required employees in the office at least 4 days per week, emphasizing in-person collaboration for culture building.",
-        "source": "https://www.bloomberg.com/news/articles/2023-07-11/blackrock-tells-staff-to-come-into-office-at-least-four-days-a-week",
-        "sourceLabel": "Bloomberg"
+        "date": "2026-07",
+        "details": "Governor Newsom ordered state agencies to require at least 4 in-office days per week starting July 1, 2026. Originally set for July 2025 but delayed after union negotiations. Applies to all state employees, with case-by-case telework exceptions.",
+        "source": "https://www.gov.ca.gov/2025/03/03/governor-newsom-orders-return-to-office/",
+        "sourceLabel": "Office of Governor"
     },
     {
         "company": "Canadian Federal Government",
@@ -367,15 +403,6 @@
         "details": "Mandated core public service employees return to office minimum 4 days per week by July 6, 2026. Executives required 5 days by May 4, 2026. Increased from previous 3-day minimum. Strongly opposed by public sector unions.",
         "source": "https://globalnews.ca/news/11654777/ottawa-public-service-4-days-office-order/",
         "sourceLabel": "Global News"
-    },
-    {
-        "company": "California State Government",
-        "industry": "Government",
-        "days": 4,
-        "date": "2026-07",
-        "details": "Governor Newsom ordered state agencies to require at least 4 in-office days per week starting July 1, 2026. Originally set for July 2025 but delayed after union negotiations. Applies to all state employees, with case-by-case telework exceptions.",
-        "source": "https://www.gov.ca.gov/2025/03/03/governor-newsom-orders-return-to-office/",
-        "sourceLabel": "Office of Governor"
     },
     {
         "company": "Comcast",
@@ -504,15 +531,6 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "TD Bank",
-        "industry": "Finance",
-        "days": 4,
-        "date": "2025-11",
-        "details": "Required all employees to work in office 4 days per week. Executives started October 6, non-executive staff from November 3, 2025. Some departments phased in through early 2026.",
-        "source": "https://www.bloomberg.com/news/articles/2025-07-23/td-orders-staff-back-to-office-four-days-a-week-later-this-year",
-        "sourceLabel": "Bloomberg"
-    },
-    {
         "company": "Target",
         "industry": "Retail",
         "days": 4,
@@ -520,6 +538,15 @@
         "details": "Required corporate employees at Minneapolis HQ to return 4 days per week, up from the previous hybrid arrangement.",
         "source": "https://www.businessinsider.com/target-return-to-office-four-days-headquarters-2025",
         "sourceLabel": "Business Insider"
+    },
+    {
+        "company": "TD Bank",
+        "industry": "Finance",
+        "days": 4,
+        "date": "2025-11",
+        "details": "Required all employees to work in office 4 days per week. Executives started October 6, non-executive staff from November 3, 2025. Some departments phased in through early 2026.",
+        "source": "https://www.bloomberg.com/news/articles/2025-07-23/td-orders-staff-back-to-office-four-days-a-week-later-this-year",
+        "sourceLabel": "Bloomberg"
     },
     {
         "company": "Toyota (North America)",
@@ -531,15 +558,6 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "WPP",
-        "industry": "Advertising",
-        "days": 4,
-        "date": "2025-04",
-        "details": "CEO Mark Read mandated 4-day in-office requirement for 114,000 staff worldwide. Triggered employee petition with 18,000+ signatures opposing the move.",
-        "source": "https://www.ft.com/content/8fb5eff2-1b63-4c8b-a7b4-4137e6d3085e",
-        "sourceLabel": "Financial Times"
-    },
-    {
         "company": "Warner Bros Discovery",
         "industry": "Media",
         "days": 4,
@@ -547,6 +565,15 @@
         "details": "CEO David Zaslav required corporate employees to work from the office 4 days per week to foster collaboration.",
         "source": "https://www.businessinsider.com/warner-bros-discovery-return-to-office-four-days-2024",
         "sourceLabel": "Business Insider"
+    },
+    {
+        "company": "WPP",
+        "industry": "Advertising",
+        "days": 4,
+        "date": "2025-04",
+        "details": "CEO Mark Read mandated 4-day in-office requirement for 114,000 staff worldwide. Triggered employee petition with 18,000+ signatures opposing the move.",
+        "source": "https://www.ft.com/content/8fb5eff2-1b63-4c8b-a7b4-4137e6d3085e",
+        "sourceLabel": "Financial Times"
     },
     {
         "company": "AbbVie",
@@ -594,24 +621,6 @@
         "sourceLabel": "Reuters"
     },
     {
-        "company": "Boeing",
-        "industry": "Aerospace",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Most corporate employees required in office at least 3 days per week. Engineering and manufacturing roles are fully on-site.",
-        "source": "https://www.businessinsider.com/boeing-return-to-office-hybrid-policy-2024",
-        "sourceLabel": "Business Insider"
-    },
-    {
-        "company": "CVS Health",
-        "industry": "Healthcare",
-        "days": 3,
-        "date": "2024-09",
-        "details": "Corporate employees required in office at least 3 days per week under a structured hybrid model.",
-        "source": "https://www.businessinsider.com/cvs-health-return-to-office-2024",
-        "sourceLabel": "Business Insider"
-    },
-    {
         "company": "Capital One",
         "industry": "Finance",
         "days": 3,
@@ -637,6 +646,15 @@
         "details": "Maintains 3-day hybrid model with swipe card attendance tracking in UK and US offices. Non-compliance factors into performance reviews.",
         "source": "https://www.reuters.com/business/finance/citi-ramps-up-return-office-enforcement-2024-05-01/",
         "sourceLabel": "Reuters"
+    },
+    {
+        "company": "CVS Health",
+        "industry": "Healthcare",
+        "days": 3,
+        "date": "2024-09",
+        "details": "Corporate employees required in office at least 3 days per week under a structured hybrid model.",
+        "source": "https://www.businessinsider.com/cvs-health-return-to-office-2024",
+        "sourceLabel": "Business Insider"
     },
     {
         "company": "Deutsche Bank",
@@ -666,15 +684,6 @@
         "sourceLabel": "Business Insider"
     },
     {
-        "company": "GM",
-        "industry": "Automotive",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Required salaried employees to work in office at least 3 days per week. CEO Mary Barra emphasizes flexibility balanced with collaboration.",
-        "source": "https://www.cnbc.com/2024/03/18/gm-return-to-office-hybrid-policy.html",
-        "sourceLabel": "CNBC"
-    },
-    {
         "company": "General Electric",
         "industry": "Manufacturing",
         "days": 3,
@@ -682,6 +691,15 @@
         "details": "Hybrid policy varies by division (GE Aerospace, GE Vernova, GE Healthcare). Generally 3 days in office for corporate roles.",
         "source": "",
         "sourceLabel": ""
+    },
+    {
+        "company": "GM",
+        "industry": "Automotive",
+        "days": 3,
+        "date": "2024-01",
+        "details": "Required salaried employees to work in office at least 3 days per week. CEO Mary Barra emphasizes flexibility balanced with collaboration.",
+        "source": "https://www.cnbc.com/2024/03/18/gm-return-to-office-hybrid-policy.html",
+        "sourceLabel": "CNBC"
     },
     {
         "company": "Google",
@@ -819,15 +837,6 @@
         "sourceLabel": "Financial Times"
     },
     {
-        "company": "Raytheon (RTX)",
-        "industry": "Aerospace",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid employees expected in office at least 3 days per week. Many defense roles require full-time on-site presence.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "Roku",
         "industry": "Tech",
         "days": 3,
@@ -835,6 +844,15 @@
         "details": "Required employees to work from the office at least 3 days per week under a hybrid arrangement.",
         "source": "",
         "sourceLabel": ""
+    },
+    {
+        "company": "Salesforce",
+        "industry": "Tech",
+        "days": 3,
+        "date": "2024-10",
+        "details": "Tightened RTO policy starting October 1, 2024. Sales, workplace services, and data center teams required 4-5 days in-office. Legal, product, and marketing teams required 3 days. Some engineering roles need 10 days per quarter. CEO Benioff reversed his 2022 stance that office mandates 'never work.'",
+        "source": "https://www.salesforceben.com/salesforce-u-turn-on-hybrid-working-return-to-office-mandate-issued-for-select-employees/",
+        "sourceLabel": "Salesforce Ben"
     },
     {
         "company": "SAP",
@@ -864,6 +882,15 @@
         "sourceLabel": "Business Insider"
     },
     {
+        "company": "Uber",
+        "industry": "Tech",
+        "days": 3,
+        "date": "2025-06",
+        "details": "Raised in-office requirement from 2 to 3 days per week (Tue/Wed/Thu) starting June 2025. Previously remote-approved employees also required to return. CEO Khosrowshahi told staff to 'make a choice' if unhappy with the mandate. Expanding NYC offices to 500,000 sq ft.",
+        "source": "https://www.cnbc.com/2025/04/28/uber-raises-in-office-requirement-to-3-days-claws-back-remote-workers.html",
+        "sourceLabel": "CNBC"
+    },
+    {
         "company": "UBS",
         "industry": "Finance",
         "days": 3,
@@ -873,24 +900,6 @@
         "sourceLabel": "Reuters"
     },
     {
-        "company": "US Bank",
-        "industry": "Finance",
-        "days": 3,
-        "date": "2025-03",
-        "details": "Required hybrid and remote employees to work at least 3 days per week in the office starting March 2025.",
-        "source": "https://www.americanbanker.com/news/us-bancorp-orders-workers-back-to-the-office-three-days-a-week",
-        "sourceLabel": "American Banker"
-    },
-    {
-        "company": "Uber",
-        "industry": "Tech",
-        "days": 3,
-        "date": "2023-04",
-        "details": "Requires employees to be in the office at least 3 days per week (Tue/Wed/Thu). CEO Dara Khosrowshahi emphasized in-person collaboration.",
-        "source": "https://www.businessinsider.com/uber-return-to-office-hybrid-three-days-a-week-2023",
-        "sourceLabel": "Business Insider"
-    },
-    {
         "company": "UnitedHealth Group",
         "industry": "Healthcare",
         "days": 3,
@@ -898,6 +907,15 @@
         "details": "Hybrid model with most corporate employees expected in office 3 days per week. Clinical and operational roles fully on-site.",
         "source": "",
         "sourceLabel": ""
+    },
+    {
+        "company": "US Bank",
+        "industry": "Finance",
+        "days": 3,
+        "date": "2025-03",
+        "details": "Required hybrid and remote employees to work at least 3 days per week in the office starting March 2025.",
+        "source": "https://www.americanbanker.com/news/us-bancorp-orders-workers-back-to-the-office-three-days-a-week",
+        "sourceLabel": "American Banker"
     },
     {
         "company": "Verizon",
@@ -918,20 +936,20 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "BCG",
-        "industry": "Consulting",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Hybrid model with flexibility based on client and project needs. Office attendance varies by practice and geography.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "Bain",
         "industry": "Consulting",
         "days": "flex",
         "date": "2024-01",
         "details": "Flexible hybrid model driven primarily by client engagement needs. No company-wide day mandate.",
+        "source": "",
+        "sourceLabel": ""
+    },
+    {
+        "company": "BCG",
+        "industry": "Consulting",
+        "days": "flex",
+        "date": "2024-01",
+        "details": "Hybrid model with flexibility based on client and project needs. Office attendance varies by practice and geography.",
         "source": "",
         "sourceLabel": ""
     },
@@ -1024,15 +1042,6 @@
         "details": "Flexible 'PinFlex' policy allows employees to choose whether to work from home or office. One of the more flexible tech companies.",
         "source": "https://newsroom.pinterest.com/en/post/introducing-pinflex-our-new-flexible-work-model",
         "sourceLabel": "Pinterest Newsroom"
-    },
-    {
-        "company": "Salesforce",
-        "industry": "Tech",
-        "days": 3,
-        "date": "2024-10",
-        "details": "Tightened RTO policy starting October 1, 2024. Sales, workplace services, and data center teams required 4-5 days in-office. Legal, product, and marketing teams required 3 days. Some engineering roles need 10 days per quarter. CEO Benioff reversed his 2022 stance that office mandates 'never work.'",
-        "source": "https://www.salesforceben.com/salesforce-u-turn-on-hybrid-working-return-to-office-mandate-issued-for-select-employees/",
-        "sourceLabel": "Salesforce Ben"
     },
     {
         "company": "ServiceNow",
