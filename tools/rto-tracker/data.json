@@ -558,6 +558,15 @@
         "sourceLabel": "Bloomberg"
     },
     {
+        "company": "UnitedHealth Group",
+        "industry": "Healthcare",
+        "days": 4,
+        "date": "2025-07",
+        "details": "Increased from 3 to 4 days per week for hybrid employees in Minnesota and Washington, D.C. starting July 7, 2025. First formal policy change in four years, citing need for stronger in-person collaboration.",
+        "source": "https://www.startribune.com/unitedhealth-group-requiring-more-time-at-hq-for-hybrid-workers-in-twin-cities/601381108",
+        "sourceLabel": "Star Tribune"
+    },
+    {
         "company": "Warner Bros Discovery",
         "industry": "Media",
         "days": 4,
@@ -898,15 +907,6 @@
         "details": "Required most employees to work from the office at least 3 days per week following the Credit Suisse integration. Stricter rules for senior staff.",
         "source": "https://www.reuters.com/business/finance/ubs-tells-staff-spend-more-time-office-after-credit-suisse-takeover-2024",
         "sourceLabel": "Reuters"
-    },
-    {
-        "company": "UnitedHealth Group",
-        "industry": "Healthcare",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model with most corporate employees expected in office 3 days per week. Clinical and operational roles fully on-site.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "US Bank",
