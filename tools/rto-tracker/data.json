@@ -903,10 +903,10 @@
         "company": "UBS",
         "industry": "Finance",
         "days": 3,
-        "date": "2024-06",
-        "details": "Required most employees to work from the office at least 3 days per week following the Credit Suisse integration. Stricter rules for senior staff.",
-        "source": "https://www.reuters.com/business/finance/ubs-tells-staff-spend-more-time-office-after-credit-suisse-takeover-2024",
-        "sourceLabel": "Reuters"
+        "date": "2026-03",
+        "details": "General policy requires 3 days per week post-Credit Suisse integration. In March 2026, Americas Global Banking division mandated 5 days in-office for all non-support staff, eliminating the Friday WFH option that junior bankers previously had.",
+        "source": "https://www.bloomberg.com/news/articles/2026-03-26/ubs-americas-brings-junior-bankers-back-to-office-5-days-a-week",
+        "sourceLabel": "Bloomberg"
     },
     {
         "company": "US Bank",
