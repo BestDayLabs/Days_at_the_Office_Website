@@ -261,6 +261,15 @@
         "sourceLabel": "The Verge"
     },
     {
+        "company": "TCS (Tata Consultancy Services)",
+        "industry": "Tech",
+        "days": 5,
+        "date": "2023-10",
+        "details": "Scrapped hybrid work policy in October 2023, requiring 600,000+ employees back to office 5 days per week. Bonuses tied to attendance: less than 60% office time means zero bonus. Non-compliance factors into performance reviews and promotions.",
+        "source": "https://fortune.com/europe/2024/04/22/tatas-consultancy-arm-cuts-bonuses-employees-office-5-days-week-hybrid/",
+        "sourceLabel": "Fortune"
+    },
+    {
         "company": "TikTok",
         "industry": "Tech",
         "days": 5,
@@ -439,6 +448,15 @@
         "details": "Required managing directors to work at least 4 days in the office, with signals of expanding stricter rules to more staff levels.",
         "source": "https://www.reuters.com/business/finance/hsbc-tells-senior-bankers-spend-more-time-office-2024-09-26/",
         "sourceLabel": "Reuters"
+    },
+    {
+        "company": "Infosys",
+        "industry": "Tech",
+        "days": 4,
+        "date": "2026-03",
+        "details": "Expanded 4-day in-office requirement to JL6+ (mid-level) employees in March 2026, previously only for JL7+ senior staff. Requires minimum 10 days per month spread across all four weeks. HR monitors monthly compliance. Part of broader Indian IT sector RTO trend.",
+        "source": "https://www.storyboard18.com/brand-marketing/infosys-requires-senior-employees-to-return-to-office-4-days-weekly-91426.htm",
+        "sourceLabel": "Storyboard18"
     },
     {
         "company": "Intel",
@@ -810,6 +828,15 @@
         "sourceLabel": "Business Insider"
     },
     {
+        "company": "Omnicom Group",
+        "industry": "Advertising",
+        "days": 3,
+        "date": "2025-11",
+        "details": "Post-IPG acquisition policy requires minimum 3 days per week, with many agencies and the corporate group already at 5 days. Policy states requirement will 'increase over time.' US non-compliance risks no pay rises, no promotions, and potential termination.",
+        "source": "https://www.campaignlive.com/article/omnicom-warns-staff-in-office-requirement-will-increase-time/1942700",
+        "sourceLabel": "Campaign"
+    },
+    {
         "company": "PayPal",
         "industry": "Tech",
         "days": 3,
@@ -925,6 +952,15 @@
         "details": "Hybrid model requiring corporate employees in office at least 3 days per week. Network and retail roles are fully on-site.",
         "source": "https://www.businessinsider.com/verizon-return-to-office-hybrid-policy-2024",
         "sourceLabel": "Business Insider"
+    },
+    {
+        "company": "Wipro",
+        "industry": "Tech",
+        "days": 3,
+        "date": "2026-01",
+        "details": "Tightened hybrid policy effective January 1, 2026, requiring 3 days per week with a minimum 6-hour in-office stay. Tracks entry/exit via punch-in system. Non-compliance results in half-day leave deductions.",
+        "source": "https://www.whalesbook.com/news/English/tech/Wipro-Mandates-6-Hour-Office-Stay-Cuts-Remote-Days-From-2026/695cc3a0ef4ed95f98fab980",
+        "sourceLabel": "Whalesbook"
     },
     {
         "company": "Wells Fargo",
