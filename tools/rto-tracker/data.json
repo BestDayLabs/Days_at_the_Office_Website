@@ -495,6 +495,15 @@
         "sourceLabel": "PR Week"
     },
     {
+        "company": "Robinhood",
+        "industry": "Finance",
+        "days": 4,
+        "date": "2025-09",
+        "details": "CEO Vlad Tenev reversed 2022 remote-first policy with a tiered RTO mandate starting September 2025: executives 5 days, managers 4 days, individual contributors 3 days. Tenev admitted regretting the remote-first stance, citing hindered innovation and team cohesion.",
+        "source": "https://www.peoplemanagement.co.uk/article/1929212/robinhood-sets-stricter-rules-senior-leaders-tiered-rto-policy",
+        "sourceLabel": "People Management"
+    },
+    {
         "company": "Royal Bank of Canada (RBC)",
         "industry": "Finance",
         "days": 4,
@@ -552,10 +561,10 @@
         "company": "Target",
         "industry": "Retail",
         "days": 4,
-        "date": "2025-01",
-        "details": "Required corporate employees at Minneapolis HQ to return 4 days per week, up from the previous hybrid arrangement.",
-        "source": "https://www.businessinsider.com/target-return-to-office-four-days-headquarters-2025",
-        "sourceLabel": "Business Insider"
+        "date": "2026-04",
+        "details": "Corporate employees at Minneapolis HQ required 4 days per week. In April 2026, escalated further by mandating 150 remote merchandising workers relocate to HQ or accept a separation package, citing need to 'reclaim merchandising authority.'",
+        "source": "https://www.retaildive.com/news/target-remote-merchandising-employees-relocate-minneapolis-headquarters/818603/",
+        "sourceLabel": "Retail Dive"
     },
     {
         "company": "TD Bank",
@@ -696,10 +705,10 @@
         "company": "EY",
         "industry": "Consulting",
         "days": 3,
-        "date": "2025-01",
-        "details": "Required employees in office or at client sites at least 2-3 days per week, with enforcement stepped up through attendance monitoring.",
-        "source": "https://www.ft.com/content/ey-return-to-office-2024",
-        "sourceLabel": "Financial Times"
+        "date": "2026-04",
+        "details": "In April 2026, formally required US tax staff to work from the office an average of 3 days per week, tightening the firm's hybrid policy. Other practice areas generally expected in office or at client sites 2-3 days with attendance monitoring.",
+        "source": "https://www.bloomberg.com/news/articles/2026-04-01/ey-tells-us-tax-staff-to-work-from-office-three-days-a-week",
+        "sourceLabel": "Bloomberg"
     },
     {
         "company": "Fidelity Investments",
