@@ -63,15 +63,6 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "Costco",
-        "industry": "Retail",
-        "days": 5,
-        "date": "2024-01",
-        "details": "Corporate employees at Issaquah, WA headquarters largely work full-time in office. Costco has maintained an in-person-first culture.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "Dell",
         "industry": "Tech",
         "days": 5,
@@ -97,6 +88,15 @@
         "details": "FHFA Director Bill Pulte directed Fannie Mae employees to return to office 5 days per week, mirroring the Freddie Mac mandate. Pulte noted only 49 of 2,900 employees were showing up full-time. Also relocating San Francisco office to Birmingham, Alabama.",
         "source": "https://dailycaller.com/2025/03/24/fannie-mae-in-person-work-doge/",
         "sourceLabel": "Daily Caller"
+    },
+    {
+        "company": "Fidelity Investments",
+        "industry": "Finance",
+        "days": 5,
+        "date": "2026-09",
+        "details": "CEO Abigail Johnson mandated all US employees return to office 5 days per week starting September 2026, ending the previous hybrid policy that allowed remote work half the month. Applies to 6,200 Boston employees plus hubs in Merrimack NH, Kentucky, and New Mexico.",
+        "source": "https://www.bloomberg.com/news/articles/2026-04-29/fidelity-mandates-five-days-in-office-in-end-to-hybrid-work-rule",
+        "sourceLabel": "Bloomberg"
     },
     {
         "company": "Freddie Mac",
@@ -252,15 +252,6 @@
         "sourceLabel": "Automotive News"
     },
     {
-        "company": "Tesla",
-        "industry": "Automotive",
-        "days": 5,
-        "date": "2022-06",
-        "details": "CEO Elon Musk required all employees to spend at least 40 hours per week in the office, calling remote work 'morally wrong.'",
-        "source": "https://www.theverge.com/2022/6/1/23150264/elon-musk-tesla-employees-return-office-remote-work",
-        "sourceLabel": "The Verge"
-    },
-    {
         "company": "TCS (Tata Consultancy Services)",
         "industry": "Tech",
         "days": 5,
@@ -268,6 +259,15 @@
         "details": "Scrapped hybrid work policy in October 2023, requiring 600,000+ employees back to office 5 days per week. Bonuses tied to attendance: less than 60% office time means zero bonus. Non-compliance factors into performance reviews and promotions.",
         "source": "https://fortune.com/europe/2024/04/22/tatas-consultancy-arm-cuts-bonuses-employees-office-5-days-week-hybrid/",
         "sourceLabel": "Fortune"
+    },
+    {
+        "company": "Tesla",
+        "industry": "Automotive",
+        "days": 5,
+        "date": "2022-06",
+        "details": "CEO Elon Musk required all employees to spend at least 40 hours per week in the office, calling remote work 'morally wrong.'",
+        "source": "https://www.theverge.com/2022/6/1/23150264/elon-musk-tesla-employees-return-office-remote-work",
+        "sourceLabel": "The Verge"
     },
     {
         "company": "TikTok",
@@ -612,15 +612,6 @@
         "sourceLabel": "Financial Times"
     },
     {
-        "company": "AbbVie",
-        "industry": "Pharma",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model with most corporate employees expected in office 3 days per week. R&D and manufacturing roles are fully on-site.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "Accenture",
         "industry": "Consulting",
         "days": 3,
@@ -711,24 +702,6 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "Fidelity Investments",
-        "industry": "Finance",
-        "days": 3,
-        "date": "2024-06",
-        "details": "Dynamic Working model with most employees expected in office 3 days per week. Increased enforcement of attendance in 2024.",
-        "source": "https://www.businessinsider.com/fidelity-investments-return-to-office-hybrid-2024",
-        "sourceLabel": "Business Insider"
-    },
-    {
-        "company": "General Electric",
-        "industry": "Manufacturing",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid policy varies by division (GE Aerospace, GE Vernova, GE Healthcare). Generally 3 days in office for corporate roles.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "GM",
         "industry": "Automotive",
         "days": 3,
@@ -745,15 +718,6 @@
         "details": "Requires 3 days per week in office. In October 2025 tightened 'Work from Anywhere' policy and gave remote employees ultimatum to switch to hybrid or take voluntary exit packages.",
         "source": "https://www.cnbc.com/2025/10/08/google-adds-limits-to-work-from-anywhere-policy-that-began-in-covid.html",
         "sourceLabel": "CNBC"
-    },
-    {
-        "company": "Honeywell",
-        "industry": "Manufacturing",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Required corporate employees to work from the office at least 3 days per week under a structured hybrid model.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "IBM",
@@ -790,24 +754,6 @@
         "details": "Required at least 3 days per week in office or at client sites, with partners and senior staff expected to model the behavior.",
         "source": "https://www.ft.com/content/kpmg-return-to-office-2024",
         "sourceLabel": "Financial Times"
-    },
-    {
-        "company": "Lockheed Martin",
-        "industry": "Aerospace",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model for eligible corporate roles with at least 3 days in office. Defense and classified work roles are fully on-site.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
-        "company": "Merck",
-        "industry": "Pharma",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model requiring office-based employees to be in at least 3 days per week. Lab and manufacturing are fully on-site.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "Meta",
@@ -864,15 +810,6 @@
         "sourceLabel": "Business Insider"
     },
     {
-        "company": "Procter & Gamble",
-        "industry": "Consumer Goods",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model with most corporate employees expected in office at least 3 days per week (Tue/Wed/Thu).",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
         "company": "PwC",
         "industry": "Consulting",
         "days": 3,
@@ -880,15 +817,6 @@
         "details": "Required employees to work from the office or client site at least 3 days per week, tightening from previous 2-day policy. Began tracking locations.",
         "source": "https://www.ft.com/content/1ef70e25-2a1a-4d57-b7f0-1b44cad8aac8",
         "sourceLabel": "Financial Times"
-    },
-    {
-        "company": "Roku",
-        "industry": "Tech",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Required employees to work from the office at least 3 days per week under a hybrid arrangement.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "Salesforce",
@@ -907,15 +835,6 @@
         "details": "Required employees to work in the office 3 days per week, tightening the previous flexible policy under new leadership.",
         "source": "https://www.reuters.com/technology/sap-tells-employees-come-office-three-days-week-2024",
         "sourceLabel": "Reuters"
-    },
-    {
-        "company": "Sony",
-        "industry": "Media/Tech",
-        "days": 3,
-        "date": "2024-01",
-        "details": "Hybrid model for corporate employees with at least 3 days expected in office. Entertainment and game studio roles vary by division.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "T-Mobile",
@@ -963,15 +882,6 @@
         "sourceLabel": "Business Insider"
     },
     {
-        "company": "Wipro",
-        "industry": "Tech",
-        "days": 3,
-        "date": "2026-01",
-        "details": "Tightened hybrid policy effective January 1, 2026, requiring 3 days per week with a minimum 6-hour in-office stay. Tracks entry/exit via punch-in system. Non-compliance results in half-day leave deductions.",
-        "source": "https://www.whalesbook.com/news/English/tech/Wipro-Mandates-6-Hour-Office-Stay-Cuts-Remote-Days-From-2026/695cc3a0ef4ed95f98fab980",
-        "sourceLabel": "Whalesbook"
-    },
-    {
         "company": "Wells Fargo",
         "industry": "Finance",
         "days": 3,
@@ -981,40 +891,13 @@
         "sourceLabel": "Bloomberg"
     },
     {
-        "company": "Bain",
-        "industry": "Consulting",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Flexible hybrid model driven primarily by client engagement needs. No company-wide day mandate.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
-        "company": "BCG",
-        "industry": "Consulting",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Hybrid model with flexibility based on client and project needs. Office attendance varies by practice and geography.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
-        "company": "Databricks",
+        "company": "Wipro",
         "industry": "Tech",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Flexible hybrid model. Employees can work from home or office based on role and preference. Offices available in major hubs.",
-        "source": "",
-        "sourceLabel": ""
-    },
-    {
-        "company": "Datadog",
-        "industry": "Tech",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Hybrid-flexible model with offices available in major tech hubs. No strict day requirements but collaboration encouraged in-person.",
-        "source": "",
-        "sourceLabel": ""
+        "days": 3,
+        "date": "2026-01",
+        "details": "Tightened hybrid policy effective January 1, 2026, requiring 3 days per week with a minimum 6-hour in-office stay. Tracks entry/exit via punch-in system. Non-compliance results in half-day leave deductions.",
+        "source": "https://www.whalesbook.com/news/English/tech/Wipro-Mandates-6-Hour-Office-Stay-Cuts-Remote-Days-From-2026/695cc3a0ef4ed95f98fab980",
+        "sourceLabel": "Whalesbook"
     },
     {
         "company": "Deloitte",
@@ -1051,15 +934,6 @@
         "details": "Flexible hybrid model allowing employees to choose when to come in. CEO Michael Miebach emphasized trust-based flexibility.",
         "source": "https://www.businessinsider.com/mastercard-remote-work-policy-hybrid-flexible-2024",
         "sourceLabel": "Business Insider"
-    },
-    {
-        "company": "McKinsey",
-        "industry": "Consulting",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Flexible model centered on client needs. Most consultants spend significant time at client sites with office days determined by project demands.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "Nvidia",
@@ -1105,15 +979,6 @@
         "details": "Maintains remote-first culture with optional offices and quarterly in-person gatherings. Part of Salesforce since 2021.",
         "source": "https://slack.com/blog/collaboration/navigating-the-future-of-work",
         "sourceLabel": "Slack"
-    },
-    {
-        "company": "Snowflake",
-        "industry": "Tech",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Flexible hybrid policy where employees choose their work location. Offices available for collaboration but no strict mandate.",
-        "source": "",
-        "sourceLabel": ""
     },
     {
         "company": "Stripe",
