@@ -216,6 +216,15 @@
         "sourceLabel": "Buildremote"
     },
     {
+        "company": "Rockstar Games",
+        "industry": "Tech",
+        "days": 5,
+        "date": "2024-04",
+        "details": "Required all employees to return to office 5 days per week starting April 15, 2024, ending remote work provisions. Cited productivity and security reasons after major GTA VI footage leaks. The IWGB Game Workers Union opposed the mandate.",
+        "source": "https://fortune.com/2024/02/28/rockstar-games-remote-work-grand-theft-auto/",
+        "sourceLabel": "Fortune"
+    },
+    {
         "company": "Rogers Communications",
         "industry": "Telecom",
         "days": 5,
@@ -902,11 +911,11 @@
     {
         "company": "Deloitte",
         "industry": "Consulting",
-        "days": "flex",
-        "date": "2024-01",
-        "details": "Hybrid model varies by practice and client needs. Generally 2-3 days in office or at client site, with significant flexibility.",
-        "source": "https://www2.deloitte.com/us/en/pages/about-deloitte/articles/future-of-work.html",
-        "sourceLabel": "Deloitte"
+        "days": 3,
+        "date": "2025-03",
+        "details": "Formalized 2-3 day (50%) weekly in-office requirement, starting with U.S. Tax practice in March 2025. Office attendance is now tied to performance reviews and bonus eligibility. Badge swipes and timesheets used to monitor compliance across 460,000 staff.",
+        "source": "https://fortune.com/2025/03/05/deloitte-staff-office-client-site-attendance-performance-metrics-us-tax-team/",
+        "sourceLabel": "Fortune"
     },
     {
         "company": "HubSpot",
