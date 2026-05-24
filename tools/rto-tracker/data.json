@@ -423,6 +423,15 @@
         "sourceLabel": "Global News"
     },
     {
+        "company": "Chipotle",
+        "industry": "Food & Beverage",
+        "days": 4,
+        "date": "2023-06",
+        "details": "CEO Brian Niccol mandated corporate staff return 4 days per week (Mon-Thu), up from the previous 3-day requirement. Friday remains flexible for remote work.",
+        "source": "https://news.bloomberglaw.com/daily-labor-report/chipotle-calls-corporate-staff-into-office-four-days-a-week",
+        "sourceLabel": "Bloomberg Law"
+    },
+    {
         "company": "Comcast",
         "industry": "Telecom/Media",
         "days": 4,
@@ -702,11 +711,20 @@
         "sourceLabel": "Reuters"
     },
     {
+        "company": "Electronic Arts (EA)",
+        "industry": "Tech",
+        "days": 3,
+        "date": "2025-05",
+        "details": "CEO Andrew Wilson mandated employees within 30 miles of an EA office adopt a hybrid model of at least 3 days in-office per week starting May 2025. Remote hiring effectively ended, with offsite roles being phased out over 3-24 months.",
+        "source": "https://www.gamespot.com/articles/ea-announces-full-return-to-office-effectively-ending-remote-work/1100-6531579/",
+        "sourceLabel": "GameSpot"
+    },
+    {
         "company": "EY",
         "industry": "Consulting",
         "days": 3,
-        "date": "2026-04",
-        "details": "In April 2026, formally required US tax staff to work from the office an average of 3 days per week, tightening the firm's hybrid policy. Other practice areas generally expected in office or at client sites 2-3 days with attendance monitoring.",
+        "date": "2026-07",
+        "details": "In April 2026, required US tax staff to work from an office or client site at least 12 days per month (roughly 3 days per week) starting July 1, 2026. Other practice areas generally expected in office or at client sites 2-3 days with attendance monitoring.",
         "source": "https://www.bloomberg.com/news/articles/2026-04-01/ey-tells-us-tax-staff-to-work-from-office-three-days-a-week",
         "sourceLabel": "Bloomberg"
     },
@@ -763,6 +781,15 @@
         "details": "Required at least 3 days per week in office or at client sites, with partners and senior staff expected to model the behavior.",
         "source": "https://www.ft.com/content/kpmg-return-to-office-2024",
         "sourceLabel": "Financial Times"
+    },
+    {
+        "company": "Minnesota State Government",
+        "industry": "Government",
+        "days": 3,
+        "date": "2025-06",
+        "details": "Governor Tim Walz mandated state employees return to in-person work at least 50% of the time starting June 1, 2025. The policy affects thousands of state workers and was heavily criticized by public employee unions AFSCME and MAPE who said they were not consulted.",
+        "source": "https://www.startribune.com/state-employee-return-office/601341584",
+        "sourceLabel": "Star Tribune"
     },
     {
         "company": "Meta",
@@ -898,6 +925,15 @@
         "details": "Most employees required in office at least 3 days per week under a structured hybrid model with attendance monitoring.",
         "source": "https://www.bloomberg.com/news/articles/2024-05-02/wells-fargo-fires-employees-for-faking-keyboard-activity",
         "sourceLabel": "Bloomberg"
+    },
+    {
+        "company": "Woolworths Australia",
+        "industry": "Retail",
+        "days": 3,
+        "date": "2025-10",
+        "details": "CEO Amanda Bardwell required all ~10,000 support office staff to work in the office at least 3 days per week by October 6, 2025. Phased rollout: 1 day from June, 2 days from August, 3 days from October. Employees choose which 3 days.",
+        "source": "https://www.hcamag.com/au/specialisation/benefits/woolworths-unveils-office-return-policy-reports/524336",
+        "sourceLabel": "HRD Australia"
     },
     {
         "company": "Wipro",
